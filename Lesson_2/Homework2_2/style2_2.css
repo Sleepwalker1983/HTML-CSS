@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+.flex{
+    height: 700px;
+    background-color: #e8b465;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.change{
+    width: 100px;
+    height: 100px;
+    background-color: #ac1111;
+    transition: 1.5s;
+
+}
+.change:hover{
+    border-radius: 50%;
+    background-color: grey;
+    transition: 3s;
+}
