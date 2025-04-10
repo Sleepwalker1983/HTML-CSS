@@ -1,0 +1,26 @@
+body{
+    background-color: #538e69;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px 0;
+}
+
+.card{
+    width: 195px;
+    height: 180px;
+    display: table-column;
+    background-color: #c1d1cc;
+    font-size: 90%;
+    padding-left: 15px;
+}
+
+p{
+    margin-top: 2px;
+    font-size: small;
+}
