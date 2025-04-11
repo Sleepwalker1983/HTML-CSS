@@ -18,9 +18,14 @@ body{
     background-color: #c1d1cc;
     font-size: 90%;
     padding-left: 15px;
+    transition: 1s;
 }
 
 p{
     margin-top: 2px;
     font-size: small;
+}
+.card:hover{
+    transform: scale(1.4);
+    transition: 1s;
 }
