@@ -1,0 +1,42 @@
+
+
+body{
+    margin: 1%;
+}
+
+header{
+    height: 77vh;
+    background-color: #527ed1;
+}
+
+main{
+
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    background-color: #29508f;
+    height: 52vh;
+    width: 32%;
+    margin: 20px 0;
+}
+footer{
+    height: 90vh;
+   background-color: #527ed1;
+}
+
+header, section, footer{
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+   opacity: 0.7;
+}
