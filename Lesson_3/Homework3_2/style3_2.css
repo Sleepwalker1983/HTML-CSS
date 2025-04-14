@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.first-section{
+    background-color: pink;
+    color: black;
+}
+.second-section{
+    background-color: black;
+    color: whitesmoke;
+}
+section p{
+    width: 85%;
+   font-family: sans-serif;
+}
