@@ -37,3 +37,16 @@ image{
     padding: 10px 0;
     font-weight: 600;
 }
+
+hr{
+    color: gray;
+    margin: 30px 30px;
+    width: 96%;
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
