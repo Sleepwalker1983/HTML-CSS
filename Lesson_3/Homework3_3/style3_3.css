@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+p{
+    width: 80%;
+    font-family: sans-serif;
+}
+
+#first-section{
+    background-color: lightcoral;
+}
+#second-section {
+    background-color: aqua;
+}
+
+#third-section{
+    background-color: darkseagreen;
+}
+
+a{
+    font-size: large;
+    color: black;
+}
