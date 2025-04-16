@@ -14,10 +14,12 @@ section{
 .first-section{
     background-color: pink;
     color: black;
+    height: 100vh;
 }
 .second-section{
     background-color: black;
     color: whitesmoke;
+    height: 100vh;
 }
 section p{
     width: 85%;
