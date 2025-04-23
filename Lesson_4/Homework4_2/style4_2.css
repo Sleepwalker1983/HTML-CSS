@@ -2,7 +2,19 @@
     margin: 0;
     padding: 0;
 }
+header, footer{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 header{
     background-color: #8D8484;
     width: 100%;
