@@ -1,0 +1,32 @@
+body{
+    background-image: url("img/soul reaver.jpg");
+    background-size: cover;
+}
+.glyph1{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    border-radius: 50%;
+    margin-top: 580px;
+    margin-left: 40px;
+    animation: glyph 4s infinite linear;
+}
+
+
+@keyframes glyph {
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: -90deg;
+    }
+    50%{
+        rotate: -180deg;
+    }
+    75%{
+        rotate: -270deg;
+    }
+    100%{
+        rotate: -360deg;
+    }
+}

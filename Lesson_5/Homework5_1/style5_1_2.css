@@ -1,0 +1,39 @@
+
+body{
+    background-color: whitesmoke;
+
+}
+.chaos{
+    width: 200px;
+    height: 200px;
+    margin: 15% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: mark 8s infinite linear alternate;
+}
+
+@keyframes mark {
+    0%{
+        rotate: 0deg;
+        transform: scale(1);
+
+    }
+    25%{
+        rotate: -90deg;
+        transform: scale(1.5);
+    }
+    50%{
+        rotate: -180deg;
+        transform: scale(2);
+    }
+    75%{
+        rotate: -270deg;
+        transform: scale(1.5);
+    }
+    100%{
+        rotate: -360deg;
+        transform: scale(1);
+    }
+    
+}
